@@ -9,3 +9,7 @@ Forks are used to clone other repros on github. This allows you to change the co
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You are able to fast forward merge your changes by moving the label.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Using beyond compare, local and shared files. Backup files diff'ed. Much harder and not as simple to review changes
