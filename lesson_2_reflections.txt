@@ -13,13 +13,21 @@ one big change. Using git add you add to staging area and git reset to remove.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Using git add to logic only add the files needed for each commit. To remove
+from the staging area you would use git reset
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Adding features and fixing bugs
 
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+When no conflicts arise then automatic merges are fast and efficient. However when conflicts are present you want to ensure you are merging the code correctly to limit defects.  
